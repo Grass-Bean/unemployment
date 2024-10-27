@@ -18,7 +18,7 @@ This repository contains the codebase for our mini-project. For detailed instruc
 
 ## **Data Preparation and Cleaning**
 - Missing data was generally imputed with a new feature that describes the data is missing. Our rationale for this was that people are willing to pay at a different price point if there is missing data due to the risk of incomplete information.
-- Categorical data were purely one-hot encoded as a result of the way we imputed data.\
+- Categorical data were purely one-hot encoded as a result of the way we imputed data.
 - Textual data proved most challenging where we attempted to clean up urls, punctuations, english stop words. We then proceeded to tokenize and lemmatize them before feeding it into a tfidf vectorizer.
 Text with more than 95% frequency and less than 5% frequency were droppped to reduce the number of features generated. Our assumption was that these words would not contribute significantly to the overall meaning of the description and although somewhat handled by a low tfidf value, deleting them would be better in consideration of computation simplicity.
 - Distance to nearest city was added as a new feature in consideration of higher demand for vehicles due to a larger population in urban areas.
