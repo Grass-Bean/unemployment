@@ -55,6 +55,7 @@ Metrics were obtained using a hold-out validation set.
 | XGBoost            | 0.90     | 0.10              |
 | Fine-tuned XGBoost | 0.93     | 0.07              |
 | Neural Network     | 0.88     | 0.12              |
+
 ## **Results and Insights**
 - Models tend to struggle to predict accurately with incomplete data.
 - Model usually predict prices to be below $200,000 indicating bias in the data, more data of higher value cars could have been added to improve model performance.
@@ -63,14 +64,15 @@ Metrics were obtained using a hold-out validation set.
 
 ## **Individual Contributions**
 
-- **Member 1**:  
-  (Contribution description)
+- **@Grass-Bean**:
+   - Data cleaning
+   - Data extraction
+   - Models
 
-- **Member 2**:  
-  (Contribution description)
-
-- **Member 3**:  
-  (Contribution description)
+- **@Beg-inn3r**:
+   - Data cleaning
+   - Data extraction
+   - Data visualisation
 
 ## **References**
 - Main Dataset: 
